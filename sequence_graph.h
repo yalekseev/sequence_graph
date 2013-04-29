@@ -27,7 +27,7 @@ public:
   /*! \brief Return true if graph built so far has a cycle */
   bool has_cycle() const;
 
-public:
+private:
   /*! \brief Add edge to graph. Return true if edge has been added (didn't exist) */
   bool add_edge(size_t src_vertex, size_t dst_vertex);
 
